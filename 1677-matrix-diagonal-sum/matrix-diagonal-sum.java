@@ -1,7 +1,7 @@
  class Solution {
     public int diagonalSum(int[][] mat) {
 
-        int n = mat[0].length;
+        int n = mat.length;
         int sum = 0;
         for(int i=0; i < n; i++){
             sum += mat[i][i];
